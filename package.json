@@ -3,10 +3,31 @@
   "displayName": "Netpbm Viewer",
   "description": "Preview Netpbm graphics in VS Code.",
   "version": "0.0.1",
+  "publisher": "3096",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/3096/codepbm.git"
+  },
+  "homepage": "https://github.com/3096/codepbm",
+  "bugs": {
+    "url": "https://github.com/3096/codepbm/issues"
+  },
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "keywords": [
+    "netpbm",
+    "pbm",
+    "pgm",
+    "ppm",
+    "pnm"
+  ],
   "engines": {
     "vscode": "^1.82.0"
   },
   "categories": [
+    "Visualization",
     "Other"
   ],
   "activationEvents": [],
